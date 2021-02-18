@@ -1,18 +1,194 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-  <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Nicholas Stefano</title>
-  <link href="https://fonts.googleapis.com/css?family=Cinzel|Indie+Flower" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <link href="style.css" rel="stylesheet">
-  </head>
-  <body>
-    <h1 id="title">Site em <change></change></h1>
-    <p>Volte em alguns dias</p>
-    <div class="background">
-      <i class="fas fa-code"></i>
-    </div>
-    <script src="events.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Nicholas Stefano | Desenvolvedor</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			html,
+			body {
+				font-family: "Montserrat", "Arial", sans-serif;
+				font-weight: 400;
+				font-size: 18px;
+				margin: 0;
+				color: #fff;
+				overflow-x: hidden;
+			}
+			main {
+				background-image: url("background.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				width: 100vw;
+				align-items: center;
+			}
+			.container {
+				height: 100vh;
+				width: 80%;
+				margin: auto;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+			}
+			.container .column {
+				width: 100%;
+			}
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			h6 {
+				font-weight: bold;
+				margin: 0 0 5px;
+			}
+			h1 {
+				font-size: 3em;
+			}
+			h2 {
+				font-size: 2em;
+			}
+			a {
+				color: inherit;
+				font-weight: 200;
+				text-decoration: none;
+			}
+			a:hover {
+				color: #dedede;
+				text-decoration: underline;
+			}
+			.buttons-container {
+				display: flex;
+			}
+			.buttons-container .button {
+				margin-right: 15px;
+			}
+			.button {
+				background: #4789b5;
+				min-width: 110px;
+				max-width: 150px;
+				padding: 0 5px;
+				height: 45px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				border-radius: 3px;
+				box-shadow: 1px 2px 8px #121212;
+				text-decoration: none;
+			}
+			.button:hover {
+				background: #2e5975;
+				text-decoration: none;
+			}
+			.button svg {
+				fill: #fff;
+				width: 23px;
+				margin-right: 8px;
+			}
+			.rounded-image {
+				width: 150px;
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<div class="container">
+				<div class="column">
+					<img
+						src="./nicholas stefano.png"
+						alt="Nicholas Stefano"
+						class="rounded-image"
+					/>
+					<h1>Nicholas Stefano</h1>
+					<h2>Desenvolvedor Web</h2>
+				</div>
+				<div class="column">
+					<p>
+						Iniciei a carreira na
+						<a href="https://www.cartolacomunicacao.com.br/" target="_blank">Cartola Comunicação</a> e
+						atualmente atuo na
+						<a href="https://catskillet.com/" target="_blank">Catskillet</a> como
+						desenvolvedor. Por essas empresas tive a oportinidade de
+						participar de projetos para marcas como
+						<a href="https://elo.com.br/" target="_blank">Elo</a>,
+						<a href="http://www.burgerking.com.br/" target="_blank">Burger King Brasil</a>,
+						<a href="https://www.seara.com.br/" target="_blank">Seara</a>, dentre outras de
+						diversos tamanhos e segmentos.
+					</p>
+					<p>Quer conversar? Entre em contato</p>
+					<div class="buttons-container">
+						<a
+							href="mailto:nicholas.stefanob@gmail.com"
+							class="button"
+						>
+							<svg
+								version="1.1"
+								xmlns="http://www.w3.org/2000/svg"
+								width="32"
+								height="32"
+								viewBox="0 0 32 32"
+							>
+								<title>gmail</title>
+								<path
+									d="M32 6v20c0 1.135-0.865 2-2 2h-2v-18.151l-12 8.62-12-8.62v18.151h-2c-1.135 0-2-0.865-2-2v-20c0-0.568 0.214-1.068 0.573-1.422 0.359-0.365 0.859-0.578 1.427-0.578h0.667l13.333 9.667 13.333-9.667h0.667c0.568 0 1.068 0.214 1.427 0.578 0.359 0.354 0.573 0.854 0.573 1.422z"
+								></path>
+							</svg>
+							E-mail</a
+						>
+						<a
+							href="https://api.whatsapp.com/send?phone=5585988534819"
+							target="_blank"
+							class="button"
+						>
+							<svg
+								version="1.1"
+								xmlns="http://www.w3.org/2000/svg"
+								width="32"
+								height="32"
+								viewBox="0 0 32 32"
+							>
+								<title>whatsapp</title>
+								<path
+									d="M23.328 19.177c-0.401-0.203-2.354-1.156-2.719-1.292-0.365-0.13-0.63-0.198-0.896 0.203-0.26 0.391-1.026 1.286-1.26 1.547s-0.464 0.281-0.859 0.104c-0.401-0.203-1.682-0.62-3.203-1.984-1.188-1.057-1.979-2.359-2.214-2.76-0.234-0.396-0.026-0.62 0.172-0.818 0.182-0.182 0.401-0.458 0.604-0.698 0.193-0.24 0.255-0.401 0.396-0.661 0.13-0.281 0.063-0.5-0.036-0.698s-0.896-2.161-1.229-2.943c-0.318-0.776-0.651-0.677-0.896-0.677-0.229-0.021-0.495-0.021-0.76-0.021s-0.698 0.099-1.063 0.479c-0.365 0.401-1.396 1.359-1.396 3.297 0 1.943 1.427 3.823 1.625 4.104 0.203 0.26 2.807 4.26 6.802 5.979 0.953 0.401 1.693 0.641 2.271 0.839 0.953 0.302 1.823 0.26 2.51 0.161 0.76-0.125 2.354-0.964 2.688-1.901 0.339-0.943 0.339-1.724 0.24-1.901-0.099-0.182-0.359-0.281-0.76-0.458zM16.083 29h-0.021c-2.365 0-4.703-0.641-6.745-1.839l-0.479-0.286-5 1.302 1.344-4.865-0.323-0.5c-1.318-2.099-2.021-4.521-2.021-7.010 0-7.26 5.943-13.182 13.255-13.182 3.542 0 6.865 1.38 9.365 3.88 2.5 2.479 3.88 5.802 3.88 9.323-0.010 7.255-5.948 13.177-13.25 13.177zM27.359 4.599c-3.042-2.938-7.042-4.599-11.297-4.599-8.776 0-15.922 7.115-15.927 15.859 0 2.792 0.729 5.516 2.125 7.927l-2.26 8.214 8.448-2.203c2.328 1.255 4.948 1.927 7.615 1.932h0.005c8.781 0 15.927-7.115 15.932-15.865 0-4.234-1.651-8.219-4.661-11.214z"
+								></path>
+							</svg>
+							Whatsapp
+						</a>
+						<a
+							href="https://www.linkedin.com/in/nicholas-stefano-b3b606186"
+							target="_blank"
+							class="button"
+						>
+							<svg
+								version="1.1"
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+							>
+								<title>linkedin</title>
+								<path
+									d="M6.796 5.206c-0 0-0 0-0.001 0-0.89 0-1.612 0.722-1.612 1.612s0.722 1.612 1.612 1.612c0.89 0 1.612-0.722 1.612-1.612 0-0 0-0 0-0v0c-0-0.89-0.722-1.611-1.612-1.612h-0z"
+								></path>
+								<path
+									d="M5.405 9.654h2.781v8.948h-2.781v-8.948z"
+								></path>
+								<path
+									d="M15.266 9.432c-1.353 0-2.26 0.742-2.631 1.445h-0.037v-1.223h-2.667v8.948h2.779v-4.427c0-1.167 0.222-2.297 1.669-2.297 1.426 0 1.445 1.335 1.445 2.372v4.352h2.779v-4.908c-0-2.409-0.52-4.262-3.336-4.262z"
+								></path>
+								<path
+									d="M19.987 1.125h-15.979c-1.59 0-2.884 1.279-2.884 2.851v16.046c0 1.573 1.294 2.853 2.884 2.853h15.979c1.592 0 2.888-1.28 2.888-2.853v-16.046c0-1.572-1.296-2.851-2.888-2.851zM21.375 20.022c0 0.747-0.623 1.353-1.388 1.353h-15.979c-0.764 0-1.384-0.606-1.384-1.353v-16.046c0-0.746 0.62-1.351 1.384-1.351h15.979c0.765 0 1.388 0.605 1.388 1.351z"
+								></path>
+							</svg>
+							Linkedin
+						</a>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
 </html>
