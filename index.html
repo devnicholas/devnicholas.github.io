@@ -1,342 +1,337 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta
-			name="description"
-			content="Meu nome é Nicholas Stefano, sou desenvolvedor com experiência em lojas virtuais, sites usando ou não CMS, sistemas, criação e integração com API's."
-		/>
-		<meta name="author" content="Nicholas Stefano" />
-		<meta
-			name="keywords"
-			content="sites, web, desenvolvedor, e-commerce, lojas, CMS, freelancer"
-		/>
-		<meta name="robots" content="index,follow" />
-		<meta http-equiv="content-language" content="pt-br" />
-		<meta property="og:type" content="page" />
-		<meta property="og:url" content="http://devnicholas.github.io/" />
-		<meta property="og:title" content="Nicholas Stefano | Desenvolvedor" />
-		<meta property="og:image" content="https://devnicholas.github.io/nicholas%20stefano.png" />
-		<meta
-			property="og:description"
-			content="Meu nome é Nicholas Stefano, sou desenvolvedor com experiência em lojas virtuais, sites usando ou não CMS, sistemas, criação e integração com API's."
-		/>
-		<title>Nicholas Stefano | Desenvolvedor</title>
-		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
-		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="./assets/jquery.fullpage.css" />
-		<style>
-			html,
-			body {
-				font-family: "Montserrat", "Arial", sans-serif;
-				font-weight: 400;
-				font-size: 23px;
-				margin: 0;
-				color: #fff;
-				overflow-x: hidden;
-			}
-			main {
-				width: 100vw;
-				align-items: center;
-			}
-			.container {
-				height: 100vh;
-				width: 100%;
-				margin: auto;
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: center;
-			}
-			#aboutMe {
-				background-image: url("bg-1.jpg");
-				background-repeat: no-repeat;
-				background-size: cover;
-				background-position: center;
-			}
-			#techs {
-				background-image: url("bg-2.jpg");
-				background-repeat: no-repeat;
-				background-size: cover;
-				background-position: center;
-			}
-			#contact {
-				background-image: url("bg-3.jpg");
-				background-repeat: no-repeat;
-				background-size: cover;
-				background-position: center;
-			}
-			.container .column {
-				width: 80%;
-				margin: auto;
-			}
-			h1,
-			h2,
-			h3,
-			h4,
-			h5,
-			h6 {
-				font-weight: bold;
-				margin: 0 0 5px;
-			}
-			h1 {
-				font-size: 3em;
-			}
-			h2 {
-				font-size: 2em;
-			}
-			a {
-				color: inherit;
-				font-weight: 200;
-				text-decoration: none;
-			}
-			a:hover {
-				color: #dedede;
-				text-decoration: underline;
-			}
-			.buttons-container {
-				display: flex;
-				justify-content: space-evenly;
-			}
-			.buttons-container .button {
-				margin-right: 15px;
-			}
-			.button {
-				background: #4789b5;
-				min-width: 25%;
-				padding: 0 5px;
-				height: 60px;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				border-radius: 3px;
-				box-shadow: 1px 2px 8px #121212;
-				text-decoration: none;
-				font-size: 23px;
-			}
-			.button:hover {
-				background: #2e5975;
-				text-decoration: none;
-			}
-			.button svg {
-				fill: #fff;
-				width: 23px;
-				margin-right: 8px;
-			}
-			.rounded-image {
-				width: 150px;
-			}
-			.text-center {
-				text-align: center;
-			}
-			.title-techs {
-				color: #121212;
-				margin-bottom: 20px;
-				font-weight: 400;
-			}
-			.title-techs strong {
-				font-weight: bold;
-			}
-			.mosaic {
-				display: flex;
-				flex-wrap: wrap;
-				align-items: center;
-				justify-content: center;
-				width: 80%;
-				margin: auto;
-			}
-			.mosaic img {
-				margin: 5px 13px;
-			}
-			.box-techs {
-				background: rgba(255, 255, 255, 0.5);
-				padding: 15px 0;
-				border-radius: 5px;
-			}
-			.title-contact {
-				margin-bottom: 20px;
-			}
-			#fp-nav .active span {
-				background: #4789b5;
-			}
-		</style>
-	</head>
-	<body>
-		<main id="fullpage">
-			<div class="container section" id="aboutMe">
-				<div class="column">
-					<img
-						src="./nicholas stefano.png"
-						alt="Nicholas Stefano"
-						class="rounded-image"
-					/>
-					<h1>Nicholas Stefano</h1>
-					<h2>Desenvolvedor Web</h2>
-				</div>
-				<div class="column">
-					<p>
-						Iniciei a carreira na
-						<a
-							href="https://www.cartolacomunicacao.com.br/"
-							target="_blank"
-							>Cartola Comunicação</a
-						>
-						e atualmente atuo na
-						<a href="https://catskillet.com/" target="_blank"
-							>Catskillet</a
-						>
-						como desenvolvedor. Por essas empresas tive a
-						oportinidade de participar de projetos para marcas como
-						<a href="https://elo.com.br/" target="_blank">Elo</a>,
-						<a href="http://www.burgerking.com.br/" target="_blank"
-							>Burger King Brasil</a
-						>,
-						<a href="https://www.seara.com.br/" target="_blank"
-							>Seara</a
-						>, dentre outras de diversos tamanhos e segmentos.
-					</p>
-				</div>
-			</div>
-			<div class="container section" id="techs">
-				<div class="column text-center box-techs" style="display: none">
-					<h2 class="title-techs">
-						<strong>Tecnologias</strong> que domino
-					</h2>
-					<div class="mosaic">
-						<img src="./images/css 3.png" alt="CSS 3" />
-						<img src="./images/nuxtJS.png" alt="NuxtJS" />
-						<img src="./images/mySQL.png" alt="MySQL" />
-						<img src="./images/git.png" alt="Git" />
-						<img src="./images/javascript.png" alt="Javascript" />
-						<img src="./images/jquery.png" alt="Jquery" />
-						<img src="./images/laravel.png" alt="Laravel" />
-						<img src="./images/nodejs.png" alt="NodeJS" />
-						<img src="./images/react.png" alt="React" />
-						<img src="./images/html 5.png" alt="HTML 5" />
-						<img src="./images/php.png" alt="PHP" />
-						<img src="./images/postgresql.png" alt="PostgreSQL" />
-						<img src="./images/vuejs.png" alt="VueJS" />
-						<img src="./images/express.png" alt="Express" />
-						<img src="./images/wordpress.png" alt="Wordpress" />
-					</div>
-				</div>
-			</div>
-			<div class="container section" id="contact">
-				<div class="column text-center" style="display: none">
-					<h2 class="title-contact">
-						Quer conversar? Entre em contato
-					</h2>
-					<div class="buttons-container">
-						<a
-							href="mailto:nicholas.stefanob@gmail.com"
-							class="button"
-						>
-							<svg
-								version="1.1"
-								xmlns="http://www.w3.org/2000/svg"
-								width="32"
-								height="32"
-								viewBox="0 0 32 32"
-							>
-								<title>gmail</title>
-								<path
-									d="M32 6v20c0 1.135-0.865 2-2 2h-2v-18.151l-12 8.62-12-8.62v18.151h-2c-1.135 0-2-0.865-2-2v-20c0-0.568 0.214-1.068 0.573-1.422 0.359-0.365 0.859-0.578 1.427-0.578h0.667l13.333 9.667 13.333-9.667h0.667c0.568 0 1.068 0.214 1.427 0.578 0.359 0.354 0.573 0.854 0.573 1.422z"
-								></path>
-							</svg>
-							E-mail</a
-						>
-						<a
-							href="https://api.whatsapp.com/send?phone=5585988534819"
-							target="_blank"
-							class="button"
-						>
-							<svg
-								version="1.1"
-								xmlns="http://www.w3.org/2000/svg"
-								width="32"
-								height="32"
-								viewBox="0 0 32 32"
-							>
-								<title>whatsapp</title>
-								<path
-									d="M23.328 19.177c-0.401-0.203-2.354-1.156-2.719-1.292-0.365-0.13-0.63-0.198-0.896 0.203-0.26 0.391-1.026 1.286-1.26 1.547s-0.464 0.281-0.859 0.104c-0.401-0.203-1.682-0.62-3.203-1.984-1.188-1.057-1.979-2.359-2.214-2.76-0.234-0.396-0.026-0.62 0.172-0.818 0.182-0.182 0.401-0.458 0.604-0.698 0.193-0.24 0.255-0.401 0.396-0.661 0.13-0.281 0.063-0.5-0.036-0.698s-0.896-2.161-1.229-2.943c-0.318-0.776-0.651-0.677-0.896-0.677-0.229-0.021-0.495-0.021-0.76-0.021s-0.698 0.099-1.063 0.479c-0.365 0.401-1.396 1.359-1.396 3.297 0 1.943 1.427 3.823 1.625 4.104 0.203 0.26 2.807 4.26 6.802 5.979 0.953 0.401 1.693 0.641 2.271 0.839 0.953 0.302 1.823 0.26 2.51 0.161 0.76-0.125 2.354-0.964 2.688-1.901 0.339-0.943 0.339-1.724 0.24-1.901-0.099-0.182-0.359-0.281-0.76-0.458zM16.083 29h-0.021c-2.365 0-4.703-0.641-6.745-1.839l-0.479-0.286-5 1.302 1.344-4.865-0.323-0.5c-1.318-2.099-2.021-4.521-2.021-7.010 0-7.26 5.943-13.182 13.255-13.182 3.542 0 6.865 1.38 9.365 3.88 2.5 2.479 3.88 5.802 3.88 9.323-0.010 7.255-5.948 13.177-13.25 13.177zM27.359 4.599c-3.042-2.938-7.042-4.599-11.297-4.599-8.776 0-15.922 7.115-15.927 15.859 0 2.792 0.729 5.516 2.125 7.927l-2.26 8.214 8.448-2.203c2.328 1.255 4.948 1.927 7.615 1.932h0.005c8.781 0 15.927-7.115 15.932-15.865 0-4.234-1.651-8.219-4.661-11.214z"
-								></path>
-							</svg>
-							Whatsapp
-						</a>
-						<a
-							href="https://www.linkedin.com/in/nicholas-stefano-b3b606186"
-							target="_blank"
-							class="button"
-						>
-							<svg
-								version="1.1"
-								xmlns="http://www.w3.org/2000/svg"
-								width="24"
-								height="24"
-								viewBox="0 0 24 24"
-							>
-								<title>linkedin</title>
-								<path
-									d="M6.796 5.206c-0 0-0 0-0.001 0-0.89 0-1.612 0.722-1.612 1.612s0.722 1.612 1.612 1.612c0.89 0 1.612-0.722 1.612-1.612 0-0 0-0 0-0v0c-0-0.89-0.722-1.611-1.612-1.612h-0z"
-								></path>
-								<path
-									d="M5.405 9.654h2.781v8.948h-2.781v-8.948z"
-								></path>
-								<path
-									d="M15.266 9.432c-1.353 0-2.26 0.742-2.631 1.445h-0.037v-1.223h-2.667v8.948h2.779v-4.427c0-1.167 0.222-2.297 1.669-2.297 1.426 0 1.445 1.335 1.445 2.372v4.352h2.779v-4.908c-0-2.409-0.52-4.262-3.336-4.262z"
-								></path>
-								<path
-									d="M19.987 1.125h-15.979c-1.59 0-2.884 1.279-2.884 2.851v16.046c0 1.573 1.294 2.853 2.884 2.853h15.979c1.592 0 2.888-1.28 2.888-2.853v-16.046c0-1.572-1.296-2.851-2.888-2.851zM21.375 20.022c0 0.747-0.623 1.353-1.388 1.353h-15.979c-0.764 0-1.384-0.606-1.384-1.353v-16.046c0-0.746 0.62-1.351 1.384-1.351h15.979c0.765 0 1.388 0.605 1.388 1.351z"
-								></path>
-							</svg>
-							Linkedin
-						</a>
-					</div>
-				</div>
-			</div>
-		</main>
-	</body>
-	<script
-		src="https://code.jquery.com/jquery-3.5.1.min.js"
-		crossorigin="anonymous"
-	></script>
-	<script async>
-		$(document).ready(function () {
-			setTimeout(() => {
-				$("#fullpage").fullpage({
-					lazyLoading: true,
-					sectionsColor: ["#000", "#fff", "#000"],
-					navigation: true,
-					navigationTooltips: [
-						"Sobre mim",
-						"Tecnologias",
-						"Contatos",
-					],
-					afterLoad: function (anchorLink, index) {
-						var loadedSection = $(this);
-
-						$(loadedSection)
-							.find(".column")
-							.map((i, col) => {
-								$(col).fadeIn(500);
-							});
-					},
-					onLeave: function (index, nextIndex, direction) {
-						var loadedSection = $(this);
-
-						$(loadedSection)
-							.find(".column")
-							.map((i, col) => {
-								$(col).fadeOut(500);
-							});
-					},
-				});
-			}, 100);
-		});
-	</script>
-	<script src="./assets/jquery.fullpage.js" async></script>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Meu nome é Nicholas Stefano, sou desenvolvedor com experiência em lojas virtuais, sites usando ou não CMS, sistemas, criação e integração com API's."
+    />
+    <meta name="author" content="Nicholas Stefano" />
+    <meta
+      name="keywords"
+      content="sites, web, desenvolvedor, e-commerce, lojas, CMS, freelancer"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta property="og:type" content="page" />
+    <meta property="og:url" content="http://devnicholas.github.io/" />
+    <meta property="og:title" content="Nicholas Stefano | Desenvolvedor" />
+    <meta
+      property="og:image"
+      content="https://devnicholas.github.io/nicholas%20stefano.jpg"
+    />
+    <meta
+      property="og:description"
+      content="Meu nome é Nicholas Stefano, sou desenvolvedor com experiência em lojas virtuais, sites usando ou não CMS, sistemas, criação e integração com API's."
+    />
+    <title>Nicholas Stefano | Desenvolvedor</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./dist/style.css" />
+  </head>
+  <body>
+    <header class="container flex py-6 justify-between">
+      <button
+        class="text-xl block sm:hidden text-white bg-black rounded-sm"
+        id="openMenu"
+      >
+        <i class="icon-menu"></i>
+      </button>
+      <nav class="sm:w-1/2 hidden sm:block">
+        <ul class="flex justify-center sm:justify-start sm:text-xl">
+          <li class="mr-3">
+            <a href="#about" class="underline">Sobre</a>
+          </li>
+          <li class="mr-3">
+            <a href="#works" class="underline">Experiências</a>
+          </li>
+          <li class="mr-3">
+            <a href="#knowledge" class="underline">Conhecimentos</a>
+          </li>
+          <li>
+            <a href="#contact" class="underline">Contato</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="w-1/2">
+        <ul class="flex justify-end">
+          <li class="mr-2">
+            <a
+              href="mailto:nicholas.stefanob@gmail.com"
+              target="_blank"
+              class="text-xl flex"
+            >
+              <i class="icon-mail"></i>
+            </a>
+          </li>
+          <li class="mr-2">
+            <a
+              href="https://github.com/devnicholas"
+              target="_blank"
+              class="text-xl flex"
+            >
+              <i class="icon-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/nicholas-stefano/"
+              target="_blank"
+              class="text-xl flex"
+            >
+              <i class="icon-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div
+        class="container min-h-screen flex items-center justify-center sm:flex-row flex-col mb-16"
+        id="about"
+      >
+        <div class="w-full max-w-md sm:mr-4">
+          <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <div class="mb-4">
+              <h1 class="text-3xl font-bold text-center">Nicholas Stefano</h1>
+              <h2 class="text-center text-gray-600">Desenvolvedor</h2>
+            </div>
+            <div class="mb-4">
+              <p class="text-gray-700">
+                Olá, me chamo Nicholas Stefano, tenho 22 anos e sou de
+                Fortaleza/CE. Desenvolvedor full-stack formado em análise e
+                desenvolvimento de sistemas, possuo experiência no
+                desenvolvimento de sites institucionais, lojas virtuais e
+                sistemas online, prezando sempre pela
+                <strong>qualidade</strong> das minhas entregas e fazê-las no
+                <strong>prazo</strong>.
+              </p>
+            </div>
+            <div class="mb-4">
+              <p class="text-gray-700">
+                Iniciei os estudos com programação aos 14 anos e desde então não
+                paro de <strong>aprender</strong>, vejo na área de
+                desenvolvimento uma oportunidade de ajudar pessoas a resolverem
+                <strong>problemas</strong> e isso me motiva a ser cada vez
+                melhor e poder resolver problemas sempre mais complexos.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="sm:ml-4">
+          <img
+            src="./nicholas%20stefano.jpg"
+            alt="Nicholas Stefano"
+            class="rounded-full"
+          />
+        </div>
+      </div>
+      <div
+        class="container min-h-screen flex flex-col justify-center mb-16"
+        id="works"
+      >
+        <h2 class="text-2xl font-semibold mb-8 text-center">Experiências</h2>
+        <p class="text-lg mb-3">
+          Já tive a oportunidade de fazer parte destas empresas:
+        </p>
+        <div
+          class="flex flex-row flex-wrap justify-center items-stretch w-full mb-6"
+        >
+          <div
+            class="mr-2 mb-2 w-full sm:w-1/5 flex justify-center items-center bg-gray-700 rounded text-white py-2 hover:opacity-80"
+          >
+            <a
+              href="https://catskillet.com/"
+              target="_blank"
+              class="underline text-center"
+            >
+              <img
+                src="./images/catskillet.png"
+                alt="Catskillet"
+                class="mb-1 h-16 m-auto"
+              />
+              Catskillet
+            </a>
+          </div>
+          <div
+            class="mr-2 mb-2 w-full sm:w-1/5 flex justify-center items-center bg-gray-700 rounded text-white py-2 hover:opacity-80"
+          >
+            <a
+              href="https://cartolacomunicacao.com.br/"
+              target="_blank"
+              class="underline text-center"
+            >
+              <img
+                src="./images/cartola-comunicacao.png"
+                alt="Cartola Comunicação"
+                class="mb-1 h-16 m-auto"
+              />
+              Cartola Comunicação
+            </a>
+          </div>
+        </div>
+        <p class="text-lg mb-3">
+          Já tive a experiência de contribuir com projetos destas empresas:
+        </p>
+        <div
+          class="flex flex-row flex-wrap justify-center items-stretch w-full mb-1"
+        >
+          <div
+            class="mr-2 mb-2 w-full sm:w-1/5 flex justify-center items-center bg-gray-700 rounded text-white py-2 hover:opacity-80"
+          >
+            <div class="text-center">
+              <img
+                src="./images/burger-king.png"
+                alt="Burger King"
+                class="mb-1 h-16 m-auto"
+              />
+              Burger King
+            </div>
+          </div>
+          <div
+            class="mr-2 mb-2 w-full sm:w-1/5 flex justify-center items-center bg-gray-700 rounded text-white py-2 hover:opacity-80"
+          >
+            <div class="text-center">
+              <img src="./images/elo.png" alt="Elo" class="mb-1 h-16 m-auto" />
+              Elo
+            </div>
+          </div>
+          <div
+            class="mr-2 mb-2 w-full sm:w-1/5 flex justify-center items-center bg-gray-700 rounded text-white py-2 hover:opacity-80"
+          >
+            <div class="text-center">
+              <img
+                src="./images/xp-investimentos.png"
+                alt="XP Inc"
+                class="mb-1 h-16 m-auto"
+              />
+              XP Inc
+            </div>
+          </div>
+          <div
+            class="mr-2 mb-2 w-full sm:w-1/5 flex justify-center items-center bg-gray-700 rounded text-white py-2 hover:opacity-80"
+          >
+            <div class="text-center">
+              <img
+                src="./images/seara.png"
+                alt="Seara"
+                class="mb-1 h-16 m-auto"
+              />
+              Seara
+            </div>
+          </div>
+        </div>
+        <p class="font-light text-center">
+          Dentre outras de diversos tamanhos e segmentos.
+        </p>
+      </div>
+      <div
+        class="container min-h-screen flex flex-col items-center justify-center mb-16"
+        id="knowledge"
+      >
+        <h2 class="text-2xl font-semibold mb-2">Conhecimentos</h2>
+        <p class="text-center mb-6">
+          Como desenvolvedor Full-Stack, domino tecnologias de frontend e
+          backend, além de possuir boa noção de DevOps.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-between items-center">
+          <div class="w-full sm:w-3/4 mb-4 sm:mb-0">
+            <img src="./images/techs.png" alt="Conhecimentos" />
+          </div>
+          <div class="w-full sm:w-1/4 pl-4">
+            <ul
+              class="overflow-y-auto min-w-full h-96 text-lg text-right px-2 border border-gray-400"
+            >
+              <li>Docker</li>
+              <li>PHP</li>
+              <li>Laravel</li>
+              <li>Node</li>
+              <li>Adonis</li>
+              <li>Express</li>
+              <li>React</li>
+              <li>React Native</li>
+              <li>NextJS</li>
+              <li>Vue</li>
+              <li>NuxtJS</li>
+              <li>Angular</li>
+              <li>Typescrypt</li>
+              <li>Bootstrap</li>
+              <li>TailwindCSS</li>
+              <li>MySQL</li>
+              <li>PostgreSQL</li>
+              <li>MongoDB</li>
+              <li>Wordpress</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Scrum</li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-center text-gray-700 text-xl mt-3">Dentre outros...</p>
+      </div>
+    </main>
+    <footer
+      id="contact"
+      class="container text-center min-h-screen flex flex-col items-center justify-center"
+    >
+      <h2 class="text-2xl font-semibold mb-8">Contato</h2>
+      <h3 class="text-xl font-semibold mb-4">
+        Quer tirar sua ideia do papel? <br />
+        Fale comigo
+      </h3>
+      <p class="text-lg underline">nicholas.stefanob@gmail.com</p>
+      <ul class="flex justify-center mt-4">
+        <li class="mr-2">
+          <a
+            href="mailto:nicholas.stefanob@gmail.com"
+            target="_blank"
+            class="text-4xl flex"
+          >
+            <i class="icon-mail"></i>
+          </a>
+        </li>
+        <li class="mr-2">
+          <a
+            href="https://github.com/devnicholas"
+            target="_blank"
+            class="text-4xl flex"
+          >
+            <i class="icon-github"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/nicholas-stefano/"
+            target="_blank"
+            class="text-4xl flex"
+          >
+            <i class="icon-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <p class="py-6 text-gray-700 font-light text-center text-xl">
+      Feito com &hearts;
+    </p>
+    <div class="fixed top-0 w-full h-full flex z-30" id="mobileMenu" style="right: -100%;">
+      <div class="bg-black w-1/2 opacity-50" id="escapeZone">&nbsp;</div>
+      <nav class="w-1/2 bg-white h-full px-4 py-6">
+        <ul class="flex flex-col justify-center sm:justify-start sm:text-xl">
+          <li class="mb-3">
+            <a href="#about" class="underline mobile-menu-item">Sobre</a>
+          </li>
+          <li class="mb-3">
+            <a href="#works" class="underline mobile-menu-item">Experiências</a>
+          </li>
+          <li class="mb-3">
+            <a href="#knowledge" class="underline mobile-menu-item">Conhecimentos</a>
+          </li>
+          <li>
+            <a href="#contact" class="underline mobile-menu-item">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+  <script src="./dist/main.js" async></script>
 </html>
