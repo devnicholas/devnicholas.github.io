@@ -16,7 +16,10 @@
     <meta http-equiv="content-language" content="pt-br" />
     <meta property="og:type" content="page" />
     <meta property="og:url" content="http://devnicholas.github.io/" />
-    <meta property="og:title" content="Desenvolvedor Web | Projetos de Desenvolvimento de Sites e Aplicações | Nicholas" />
+    <meta
+      property="og:title"
+      content="Desenvolvedor Web | Projetos de Desenvolvimento de Sites e Aplicações | Nicholas"
+    />
     <meta
       property="og:image"
       content="https://devnicholas.github.io/nicholas%20stefano.jpg"
@@ -25,43 +28,37 @@
       property="og:description"
       content="Sou um desenvolvedor backend com expertise em tecnologias como NodeJS e PHP. Aqui você encontrará uma coleção dos meus projetos e contribuições, que abrangem desde desenvolvimento de soluções tecnológicas até a criação de aplicações eficientes. Explore meu trabalho e descubra como minha paixão pela programação se traduz em resultados concretos."
     />
-    <title>Desenvolvedor Web | Projetos de Desenvolvimento de Sites e Aplicações | Nicholas</title>
+    <title>
+      Desenvolvedor Web | Projetos de Desenvolvimento de Sites e Aplicações |
+      Nicholas
+    </title>
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./dist/style.css" />
   </head>
   <body>
-    <header class="container flex py-6 justify-between">
-      <button
-        class="text-xl block sm:hidden text-white bg-black rounded-sm"
-        id="openMenu"
-      >
-        <i class="icon-menu"></i>
-      </button>
-      <nav class="sm:w-1/2 hidden sm:block">
-        <ul class="flex justify-center sm:justify-start sm:text-xl">
-          <li class="mr-3">
-            <a href="#about" class="underline">Sobre</a>
-          </li>
-          <li class="mr-3">
-            <a href="#works" class="underline">Experiências</a>
-          </li>
-          <li class="mr-3">
-            <a href="#knowledge" class="underline">Conhecimentos</a>
-          </li>
-          <li>
-            <a href="#contact" class="underline">Contato</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="w-1/2">
-        <ul class="flex justify-end">
+    <header class="container pt-6">
+      <div class="w-full">
+        <ul class="flex justify-center">
           <li class="mr-2">
             <a
               href="mailto:nicholas.stefanob@gmail.com"
               target="_blank"
               class="text-xl flex"
             >
-              <i class="icon-mail"></i>
+              <svg
+                class="w-6"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                ></path>
+              </svg>
             </a>
           </li>
           <li class="mr-2">
@@ -70,7 +67,15 @@
               target="_blank"
               class="text-xl flex"
             >
-              <i class="icon-github"></i>
+              <svg
+                class="w-6"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  d="M16 0.396c-8.839 0-16 7.167-16 16 0 7.073 4.584 13.068 10.937 15.183 0.803 0.151 1.093-0.344 1.093-0.772 0-0.38-0.009-1.385-0.015-2.719-4.453 0.964-5.391-2.151-5.391-2.151-0.729-1.844-1.781-2.339-1.781-2.339-1.448-0.989 0.115-0.968 0.115-0.968 1.604 0.109 2.448 1.645 2.448 1.645 1.427 2.448 3.744 1.74 4.661 1.328 0.14-1.031 0.557-1.74 1.011-2.135-3.552-0.401-7.287-1.776-7.287-7.907 0-1.751 0.62-3.177 1.645-4.297-0.177-0.401-0.719-2.031 0.141-4.235 0 0 1.339-0.427 4.4 1.641 1.281-0.355 2.641-0.532 4-0.541 1.36 0.009 2.719 0.187 4 0.541 3.043-2.068 4.381-1.641 4.381-1.641 0.859 2.204 0.317 3.833 0.161 4.235 1.015 1.12 1.635 2.547 1.635 4.297 0 6.145-3.74 7.5-7.296 7.891 0.556 0.479 1.077 1.464 1.077 2.959 0 2.14-0.020 3.864-0.020 4.385 0 0.416 0.28 0.916 1.104 0.755 6.4-2.093 10.979-8.093 10.979-15.156 0-8.833-7.161-16-16-16z"
+                />
+              </svg>
             </a>
           </li>
           <li>
@@ -79,204 +84,240 @@
               target="_blank"
               class="text-xl flex"
             >
-              <i class="icon-linkedin"></i>
+              <svg
+                class="w-6"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 32 32"
+              >
+                <path
+                  d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"
+                />
+              </svg>
             </a>
           </li>
         </ul>
       </div>
     </header>
     <main>
-      <div
-        class="container min-h-screen flex items-center justify-center sm:flex-row flex-col mb-16"
+      <section
+        class="container min-h-screen flex items-center justify-center mb-16"
         id="about"
       >
-        <div class="w-full max-w-md sm:mr-4">
-          <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-            <div class="mb-4">
-              <h1 class="text-3xl font-bold text-center">Nicholas Stefano</h1>
-              <h2 class="text-center text-gray-600">Desenvolvedor</h2>
+        <div class="bg-white rounded-3xl py-8 w-full md:max-w-2xl">
+          <div class="mb-4 border-b border-gray-200 text-center pb-4">
+            <figure class="mb-2">
+              <img
+                src="./nicholas stefano.jpg"
+                alt="Nicholas Stefano"
+                class="rounded-full w-24 mx-auto"
+              />
+            </figure>
+            <h1 class="text-3xl font-semibold">Nicholas Stefano</h1>
+            <h2 class="text-xl text-gray-700 font-medium">Desenvolvedor Web</h2>
+            <div
+              class="flex justify-center flex-col md:flex-row text-gray-500 text-sm mt-2"
+            >
+              <span class="flex items-center justify-center">
+                <svg
+                  class="w-4"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                  ></path>
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                  ></path>
+                </svg>
+                Fortaleza, CE
+              </span>
+              <span class="hidden md:block mx-1">|</span>
+              <span class="flex items-center justify-center">
+                <svg
+                  class="w-4"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z"
+                  ></path>
+                </svg>
+                Desenvolvedor Backend
+              </span>
+              <span class="hidden md:block mx-1">|</span>
+              <span class="flex items-center justify-center">
+                <svg
+                  class="w-4"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"
+                  ></path>
+                </svg>
+                Analista e desenvolvedor de sistema
+              </span>
             </div>
-            <div class="mb-4">
-              <p class="text-gray-700">
-                Olá, me chamo Nicholas Stefano, tenho 22 anos e sou de
-                Fortaleza/CE. Desenvolvedor full-stack formado em análise e
-                desenvolvimento de sistemas, possuo experiência no
-                desenvolvimento de sites institucionais, lojas virtuais e
-                sistemas online, prezando sempre pela
-                <strong>qualidade</strong> das minhas entregas e fazê-las no
-                <strong>prazo</strong>.
+          </div>
+          <div
+            class="px-4 text-gray-900 text-sm max-h-[300px] overflow-auto"
+            x-data="showMore()"
+          >
+            <p class="mb-1">
+              Olá, sou o Nicholas, tenho o privilégio de me apresentar como um
+              desenvolvedor web de 24 anos. Atualmente, estou desempenhando a
+              função de desenvolvedor backend na Catskillet, onde contribuo para
+              o desenvolvimento de soluções tecnológicas avançadas.
+            </p>
+            <div x-show="open" x-transition>
+              <p class="mb-1">
+                Minha experiência profissional é diversificada e inclui
+                colaborações significativas nas empresas XP Investimentos e
+                Cartão Elo. Além disso, tive a honra de contribuir para os
+                projetos da Cartola Comunicação, fortalecendo ainda mais minha
+                base de conhecimento.
+              </p>
+              <p class="mb-1">
+                Minhas competências abrangem uma sólida compreensão do
+                desenvolvimento frontend, bem como uma especialização distintiva
+                em backend, utilizando tecnologias como NodeJS e PHP. Meu foco
+                incansável na lógica por trás das funcionalidades é um reflexo
+                do meu comprometimento com a qualidade e a perfeição.
+              </p>
+              <p class="mb-1">
+                Tenho como objetivo profissional a contínua busca pelo
+                conhecimento abrangente no desenvolvimento de software. Com o
+                tempo, desejo assumir cargos de liderança em equipes de
+                desenvolvimento, aplicando minha experiência completa para
+                liderar com eficácia e alcançar resultados notáveis.
+              </p>
+              <p class="mb-1">
+                Meus valores profissionais são sólidos e baseados no respeito
+                genuíno pelo próximo. Acredito em promover um ambiente de
+                trabalho inclusivo, onde a diversidade é valorizada e o trabalho
+                é uma fonte de realização diária. Essa convicção se alinha à
+                minha crença de que os melhores resultados são alcançados por
+                profissionais que encontram satisfação no que fazem.
+              </p>
+              <p class="mb-1">
+                Se compartilhamos a mesma visão e valores, saiba que estou
+                disponível para discussões, conexões e trocas de experiência,
+                conforme buscamos juntos elevar o padrão do desenvolvimento de
+                software para novos patamares.
               </p>
             </div>
-            <div class="mb-4">
-              <p class="text-gray-700">
-                Iniciei os estudos com programação aos 14 anos e desde então não
-                paro de <strong>aprender</strong>, vejo na área de
-                desenvolvimento uma oportunidade de ajudar pessoas a resolverem
-                <strong>problemas</strong> e isso me motiva a ser cada vez
-                melhor e poder resolver problemas sempre mais complexos.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="sm:ml-4">
-          <img
-            src="./nicholas%20stefano.jpg"
-            alt="Nicholas Stefano"
-            class="rounded-full"
-          />
-        </div>
-      </div>
-      <div
-        class="container min-h-screen flex flex-col justify-center mb-16"
-        id="works"
-      >
-        <h2 class="text-2xl font-semibold mb-8 text-center">Experiências</h2>
-        <p class="text-lg mb-3">
-          Já tive a oportunidade de fazer parte destas empresas:
-        </p>
-        <div
-          class="flex flex-row flex-wrap justify-center items-stretch w-full mb-6"
-        >
-          <div
-            class="mr-2 mb-2 w-full sm:w-1/5 flex justify-center items-center bg-gray-700 rounded text-white py-2 hover:opacity-80"
-          >
             <a
-              href="https://catskillet.com/"
-              target="_blank"
-              class="underline text-center"
+              href="#"
+              x-show="!open"
+              @click.prevent="open = !open"
+              class="flex justify-center mt-2 text-black font-medium"
+              >Exibir mais</a
             >
-              <img
-                src="./images/catskillet.png"
-                alt="Catskillet"
-                class="mb-1 h-16 m-auto"
-              />
-              Catskillet
-            </a>
-          </div>
-          <div
-            class="mr-2 mb-2 w-full sm:w-1/5 flex justify-center items-center bg-gray-700 rounded text-white py-2 hover:opacity-80"
-          >
-            <a
-              href="https://cartolacomunicacao.com.br/"
-              target="_blank"
-              class="underline text-center"
-            >
-              <img
-                src="./images/cartola-comunicacao.png"
-                alt="Cartola Comunicação"
-                class="mb-1 h-16 m-auto"
-              />
-              Cartola Comunicação
-            </a>
           </div>
         </div>
-        <p class="text-lg mb-3">
-          Já tive a experiência de contribuir com projetos destas empresas:
-        </p>
-        <div
-          class="flex flex-row flex-wrap justify-center items-stretch w-full mb-1"
-        >
-          <div
-            class="mr-2 mb-2 w-full sm:w-1/5 flex justify-center items-center bg-gray-700 rounded text-white py-2 hover:opacity-80"
-          >
-            <div class="text-center">
-              <img
-                src="./images/burger-king.png"
-                alt="Burger King"
-                class="mb-1 h-16 m-auto"
-              />
-              Burger King
-            </div>
-          </div>
-          <div
-            class="mr-2 mb-2 w-full sm:w-1/5 flex justify-center items-center bg-gray-700 rounded text-white py-2 hover:opacity-80"
-          >
-            <div class="text-center">
-              <img src="./images/elo.png" alt="Elo" class="mb-1 h-16 m-auto" />
-              Elo
-            </div>
-          </div>
-          <div
-            class="mr-2 mb-2 w-full sm:w-1/5 flex justify-center items-center bg-gray-700 rounded text-white py-2 hover:opacity-80"
-          >
-            <div class="text-center">
-              <img
-                src="./images/xp-investimentos.png"
-                alt="XP Inc"
-                class="mb-1 h-16 m-auto"
-              />
-              XP Inc
-            </div>
-          </div>
-          <div
-            class="mr-2 mb-2 w-full sm:w-1/5 flex justify-center items-center bg-gray-700 rounded text-white py-2 hover:opacity-80"
-          >
-            <div class="text-center">
-              <img
-                src="./images/seara.png"
-                alt="Seara"
-                class="mb-1 h-16 m-auto"
-              />
-              Seara
-            </div>
-          </div>
-        </div>
-        <p class="font-light text-center">
-          Dentre outras de diversos tamanhos e segmentos.
-        </p>
-      </div>
-      <div
+      </section>
+      <section
         class="container min-h-screen flex flex-col items-center justify-center mb-16"
         id="knowledge"
       >
         <h2 class="text-2xl font-semibold mb-2">Conhecimentos</h2>
         <p class="text-center mb-6">
-          Como desenvolvedor Full-Stack, domino tecnologias de frontend e
-          backend, além de possuir boa noção de DevOps.
+          Como desenvolvedor web, domino tecnologias de Frontend e Backend,<br />
+          além de possuir boa noção de DevOps, conhecendo todo o fluxo de <br />
+          desenvolvimento e publicação de uma aplicação.
         </p>
-        <div class="flex flex-col sm:flex-row justify-between items-center">
-          <div class="w-full sm:w-3/4 mb-4 sm:mb-0">
-            <img src="./images/techs.png" alt="Conhecimentos" />
+        <div class="tag-list" x-data="tags()">
+          <div
+            class="loop-slider"
+            style="--duration: 15258ms; --direction: normal"
+          >
+            <div class="inner">
+              <template x-for="tag in tagsList">
+                <div class="tag" x-text="tag"></div>
+              </template>
+            </div>
           </div>
-          <div class="w-full sm:w-1/4 pl-4">
-            <ul
-              class="overflow-y-auto min-w-full h-96 text-lg text-right px-2 border border-gray-400"
-            >
-              <li>Docker</li>
-              <li>PHP</li>
-              <li>Laravel</li>
-              <li>Node</li>
-              <li>Adonis</li>
-              <li>Express</li>
-              <li>React</li>
-              <li>React Native</li>
-              <li>NextJS</li>
-              <li>Vue</li>
-              <li>NuxtJS</li>
-              <li>Angular</li>
-              <li>Typescrypt</li>
-              <li>Bootstrap</li>
-              <li>TailwindCSS</li>
-              <li>MySQL</li>
-              <li>PostgreSQL</li>
-              <li>MongoDB</li>
-              <li>Wordpress</li>
-              <li>Git</li>
-              <li>GitHub</li>
-              <li>Scrum</li>
-            </ul>
+          <div
+            class="loop-slider"
+            style="--duration: 16358ms; --direction: reverse"
+          >
+            <div class="inner">
+              <template x-for="tag in tagsList">
+                <div class="tag" x-text="tag"></div>
+              </template>
+            </div>
+          </div>
+          <div
+            class="loop-slider"
+            style="--duration: 18158ms; --direction: normal"
+          >
+            <div class="inner">
+              <template x-for="tag in tagsList">
+                <div class="tag" x-text="tag"></div>
+              </template>
+            </div>
+          </div>
+          <div
+            class="loop-slider"
+            style="--duration: 17758ms; --direction: reverse"
+          >
+            <div class="inner">
+              <template x-for="tag in tagsList">
+                <div class="tag" x-text="tag"></div>
+              </template>
+            </div>
+          </div>
+          <div
+            class="loop-slider"
+            style="--duration: 19628ms; --direction: normal"
+          >
+            <div class="inner">
+              <template x-for="tag in tagsList">
+                <div class="tag" x-text="tag"></div>
+              </template>
+            </div>
+          </div>
+          <div
+            class="loop-slider"
+            style="--duration: 19158ms; --direction: reverse"
+          >
+            <div class="inner">
+              <template x-for="tag in tagsList">
+                <div class="tag" x-text="tag"></div>
+              </template>
+            </div>
           </div>
         </div>
-        <p class="text-center text-gray-700 text-xl mt-3">Dentre outros...</p>
-      </div>
+      </section>
     </main>
-    <footer
+    <section
       id="contact"
       class="container text-center min-h-screen flex flex-col items-center justify-center"
     >
       <h2 class="text-2xl font-semibold mb-8">Contato</h2>
       <h3 class="text-xl font-semibold mb-4">
-        Quer tirar sua ideia do papel? <br />
+        Estou sempre disponível para trocas de experiências <br />
         Fale comigo
       </h3>
       <p class="text-lg underline">nicholas.stefanob@gmail.com</p>
@@ -287,7 +328,20 @@
             target="_blank"
             class="text-4xl flex"
           >
-            <i class="icon-mail"></i>
+            <svg
+              class="w-12"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+              ></path>
+            </svg>
           </a>
         </li>
         <li class="mr-2">
@@ -296,7 +350,15 @@
             target="_blank"
             class="text-4xl flex"
           >
-            <i class="icon-github"></i>
+            <svg
+              class="w-12"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 32 32"
+            >
+              <path
+                d="M16 0.396c-8.839 0-16 7.167-16 16 0 7.073 4.584 13.068 10.937 15.183 0.803 0.151 1.093-0.344 1.093-0.772 0-0.38-0.009-1.385-0.015-2.719-4.453 0.964-5.391-2.151-5.391-2.151-0.729-1.844-1.781-2.339-1.781-2.339-1.448-0.989 0.115-0.968 0.115-0.968 1.604 0.109 2.448 1.645 2.448 1.645 1.427 2.448 3.744 1.74 4.661 1.328 0.14-1.031 0.557-1.74 1.011-2.135-3.552-0.401-7.287-1.776-7.287-7.907 0-1.751 0.62-3.177 1.645-4.297-0.177-0.401-0.719-2.031 0.141-4.235 0 0 1.339-0.427 4.4 1.641 1.281-0.355 2.641-0.532 4-0.541 1.36 0.009 2.719 0.187 4 0.541 3.043-2.068 4.381-1.641 4.381-1.641 0.859 2.204 0.317 3.833 0.161 4.235 1.015 1.12 1.635 2.547 1.635 4.297 0 6.145-3.74 7.5-7.296 7.891 0.556 0.479 1.077 1.464 1.077 2.959 0 2.14-0.020 3.864-0.020 4.385 0 0.416 0.28 0.916 1.104 0.755 6.4-2.093 10.979-8.093 10.979-15.156 0-8.833-7.161-16-16-16z"
+              />
+            </svg>
           </a>
         </li>
         <li>
@@ -305,33 +367,22 @@
             target="_blank"
             class="text-4xl flex"
           >
-            <i class="icon-linkedin"></i>
+            <svg
+              class="w-12"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 32 32"
+            >
+              <path
+                d="M27.26 27.271h-4.733v-7.427c0-1.771-0.037-4.047-2.475-4.047-2.468 0-2.844 1.921-2.844 3.916v7.557h-4.739v-15.271h4.552v2.083h0.061c0.636-1.203 2.183-2.468 4.491-2.468 4.801 0 5.692 3.161 5.692 7.271v8.385zM7.115 9.912c-1.527 0-2.751-1.235-2.751-2.756 0-1.516 1.229-2.749 2.751-2.749s2.755 1.233 2.755 2.749c0 1.521-1.233 2.756-2.755 2.756zM9.489 27.271h-4.749v-15.271h4.749zM29.636 0h-27.276c-1.303 0-2.36 1.031-2.36 2.307v27.387c0 1.276 1.057 2.307 2.36 2.307h27.271c1.301 0 2.369-1.031 2.369-2.307v-27.387c0-1.276-1.068-2.307-2.369-2.307z"
+              />
+            </svg>
           </a>
         </li>
       </ul>
-    </footer>
-    <p class="py-6 text-gray-700 font-light text-center text-xl">
+    </section>
+    <footer class="py-6 text-gray-700 font-light text-center text-xl">
       Feito com &hearts;
-    </p>
-    <div class="fixed top-0 w-full h-full flex z-30" id="mobileMenu" style="right: -100%;">
-      <div class="bg-black w-1/2 opacity-50" id="escapeZone">&nbsp;</div>
-      <nav class="w-1/2 bg-white h-full px-4 py-6">
-        <ul class="flex flex-col justify-center sm:justify-start sm:text-xl">
-          <li class="mb-3">
-            <a href="#about" class="underline mobile-menu-item">Sobre</a>
-          </li>
-          <li class="mb-3">
-            <a href="#works" class="underline mobile-menu-item">Experiências</a>
-          </li>
-          <li class="mb-3">
-            <a href="#knowledge" class="underline mobile-menu-item">Conhecimentos</a>
-          </li>
-          <li>
-            <a href="#contact" class="underline mobile-menu-item">Contato</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    </footer>
   </body>
   <script src="./dist/main.js" async></script>
 </html>
