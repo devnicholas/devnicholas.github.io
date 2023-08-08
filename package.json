@@ -1,0 +1,23 @@
+{
+  "name": "devnicholas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/devnicholas/devnicholas.github.io.git",
+  "author": "Nicholas Stefano <nicholas.stefanob@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "dev": "webpack --mode development && npx tailwindcss -i ./src/style.css -o ./dist/style.css",
+    "dev:css": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch",
+    "dev:js": "webpack --watch --mode development",
+    "build": "webpack --mode production && npx tailwindcss -i ./src/style.css -o ./dist/style.css --minify"
+  },
+  "dependencies": {
+    "alpinejs": "^3.12.3"
+  }
+}

@@ -1,6 +1,7 @@
 module.exports = {
   content: [
     './index.html',
+    './profile.html',
     './src/**/*.js',
     './src/**/*.css',
   ],

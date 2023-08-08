@@ -1,31 +1,49 @@
-document.getElementById('openMenu').addEventListener('click', function() {
-    openMenu();
-})
-document.getElementById('escapeZone').addEventListener('click', function() {
-    closeMenu();
-})
-const menuItems = document.querySelectorAll('.mobile-menu-item');
-menuItems.forEach(item => {
-    item.addEventListener('click', function() {
-        closeMenu();
-    })
-})
+import Alpine from "alpinejs";
 
-function openMenu() {
-    document.getElementById('mobileMenu').animate([
-        { right: '-100%' },
-        { right: '0' }
-    ], {
-        duration: 200,
-        fill: 'forwards'
-    });
-}
-function closeMenu() {
-    document.getElementById('mobileMenu').animate([
-        { right: '0' },
-        { right: '-100%' }
-    ], {
-        duration: 200,
-        fill: 'forwards'
-    });
-}
+window.Alpine = Alpine;
+
+Alpine.data("showMore", () => ({
+  open: false,
+}));
+
+Alpine.data("tags", () => ({
+  get tagsList() {
+    const tags = [
+      "Docker",
+      "PHP",
+      "Laravel",
+      "NodeJS",
+      "AdonisJS",
+      "Express",
+      "React",
+      "React Native",
+      "NestJS",
+      "NextJS",
+      "Vue",
+      "NuxtJS",
+      "Angular",
+      "Typescrypt",
+      "Bootstrap",
+      "TailwindCSS",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Wordpress",
+      "Git",
+      "GitHub",
+      "Scrum",
+      "GraphQL",
+      "Azure",
+      "AWS",
+      "Digital Ocean",
+    ];
+    const itemsPerLine = 15;
+    const response = [];
+    for (let i = 0; i < itemsPerLine; i++) {
+      response.push(tags[(tags.length * Math.random()) | 0]);
+    }
+    return response;
+  },
+}));
+
+Alpine.start();
